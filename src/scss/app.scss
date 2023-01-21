@@ -24,6 +24,17 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 10rem;
+  font-size: 1rem;
   flex-flow: column;
+}
+
+.chat {
+  color: red;
+  font-size: 300px;
+  position: -webkit-sticky; /* Safari */
+  bottom: 0;
+  right: 0;
+  // position: sticky;
+  position: fixed;
+  z-index: 1000;
 }
